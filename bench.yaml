@@ -1,0 +1,27 @@
+source:
+  url: https://github.com/antimatter15/ttgf26-vad
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf26b
+  slot: tt_um_antimatter15_pdm_vad
+  project: PDM Voice Activity Detector
+  size: 1x1
+  kind: digital (Verilog)
+  commit: 0c97d596f9cbda144a82eed8f2e39b94e009d68f
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf26b/tt_um_antimatter15_pdm_vad
+  branch: tapeout/tinytapeout/ttgf26b/tt_um_antimatter15_pdm_vad
+  page: https://app.tinytapeout.com/shuttles/ttgf26b
+generated: '2026-10-17T23:08:24Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf26b/tt_um_antimatter15_pdm_vad
+- upstream/codex/improve-pdm-vad-spectral-scanner
+- upstream/main
